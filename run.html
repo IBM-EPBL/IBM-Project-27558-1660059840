@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Classic Login Form Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class='login' id='login'>
+<p>Hi, </p>
+<form action="/uploader" method="post">
+    <!-- <input type="file" name="filename" enctype="multipart/form-data"> -->
+    <br>
+    <center><button class='btn-login'>Start Web Cam</button></center>
+    <br>
+            <br>
+    <div class="form">
+<center><a href="/home" class='btn-login'>Home</a></center></div>
+<br>
+<br>
+<center><p style="color: white;">Press 'q' to stop Web Cam</p></center>
+<br>
+</form>
+</section>
+<!--<script  src="./script.js"></script>-->
+
+</body>
+</html>
