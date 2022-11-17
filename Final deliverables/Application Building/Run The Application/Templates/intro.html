@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Classic Login Form Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <section class='login' id='login'>
+        <p>Hi, </p>
+        <br>
+        <p>We hope you are safe :)
+            <br>
+            <br>
+            This application aims to solve real life problem of disaster identification 
+            <br>along with its estimated intensity on a level of 1-5.
+            <br>1 denotes low level intensity while 5 denotes the highest intensity level.
+            The users are requested<br> 
+            to use the run button to upload good, clarity pictures to run 
+            our convolutional network ... </p>
+            <br>
+            <br>
+            <div class="form">
+            <center><a href="/run" class='btn-login'>Run</a></center></div><br>
+            <br>
+    </section>
+    <script  src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
