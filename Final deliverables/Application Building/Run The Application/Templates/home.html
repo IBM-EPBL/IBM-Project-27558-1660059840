@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Natural disaster</title>
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class='login' id='login'>
+  <div class='head'>
+  <h1 class='company'>Natural Disaster Classification & Intensity Analysis</h1>
+  </div>
+  <p class='msg'>Welcome!!!</p>
+<br>
+<br>
+  <div class='form'>
+    <form>
+  <input type="text" placeholder='Enter your name' class='text' id='username' required><br>
+  <!--<input type="password" placeholder='Password' class='password'><br>-->
+<br>
+<br>
+<br>
+ <center> <a href="/intro" class='btn-login' id='do-login'>Introduction</a></center>
+<br>
+<br>
+<br>
+ <center> <a href="/run" class='btn-login' id='do-run'>Run</a></center>
+<!-- <a href="#" class='forgot'>Forgot?</a>-->
+<!--placeholder='••••••••••••••'-->  
+    </form>
+<br>
+<br>
+<br>
+  </div>
+</section>
+<!-- partial -->
+  <script  src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
